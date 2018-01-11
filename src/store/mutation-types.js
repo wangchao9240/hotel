@@ -1,0 +1,19 @@
+export const SET_USERINFO = 'SET_USERINFO'
+
+export const SET_HOTEL = 'SET_HOTEL'
+
+export const SET_VERIFY_MEMBERID = 'SET_VERIFY_MEMBERID'
+
+export const SET_ORDER_DETAIL = 'SET_ORDER_DETAIL'
+
+export const SET_ARTICLE = 'SET_ARTICLE'
+
+export const SET_MALL_INFO = 'SET_MALL_INFO'
+
+export const SET_SHOW_SWIPER = 'SET_SHOW_SWIPER'
+
+export const SET_ORDER_CONFIRM = 'SET_ORDER_CONFIRM'
+
+export const SET_BUY_DIRECT = 'SET_BUY_DIRECT'
+
+export const SET_BUY_DIRECT_INFO = 'SET_BUY_DIRECT_INFO'
