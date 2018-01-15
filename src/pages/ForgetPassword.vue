@@ -72,8 +72,8 @@ export default {
     async _GetPhoneAndEmailVerify(userName) {
       try {
         const { data } = await GetPhoneAndEmailVerify({ userName })
-        console.log('data-->', data)
-        if (data.success) {
+        console.log('data-->', data.result, data.success)
+        if (data.result && data.success) {
           this.phoneConfirmed = data.result.isPhoneNumberConfirmed
           this.emailConfirmed = data.result.isEmailConfirmed
           this.showNext = true
